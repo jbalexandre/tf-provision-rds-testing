@@ -1,0 +1,36 @@
+#  hidden local .terraform
+**/.terraform/*
+
+# .tfstate files
+*.tfstate
+*.tfstate.*
+terraform.tfstate.d/*
+
+# lock file
+.terraform.lock.hcl
+
+# .tfvars files
+*.tfvars
+
+# trace log
+./terraform.log
+
+# crash log file
+crash.log
+
+# override files 
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+
+**/.*.swp
+*.swp
+*.code-workspace
+*.idea
+.DS_Store
+
+credentials.yml
+
+id_rsa*
